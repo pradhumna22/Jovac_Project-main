@@ -1,0 +1,85 @@
+<html>
+
+<head>
+    <style>
+        body {
+            background-color: rgb(86, 228, 228);
+            margin: 0;
+
+
+            font-family: 'Poppins', sans-serif;
+        }
+        .form{
+            margin-top: 200px ;
+        }
+        .submit{
+            margin-top: 10px;
+        }
+    </style>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+    <title>SignUp Page</title>
+
+    <SCRIPT type="text/javascript">
+        window.history.forward();
+        function noBack() { window.history.forward(); }
+    </SCRIPT>
+    
+</head>
+
+<body>
+    <header class="head"
+        style="background-color: rgb(12, 11, 52); display: flex; justify-content: space-between; align-items: center; padding: 0px 100px; color: white;">
+
+        <h1> <b>Status Infotainment</b> </h1> 
+        
+    </header>
+    <div align=center class="form1">
+        <h1>Sign Up!!! <br> And Be A Member of Our Coding Family...</h1>
+        <form action="users.jsp" method="POST">
+            <table border="1">
+                <tr>
+                    <td> <b>Name: </b>
+                    <td> <input type=text name=name required>
+                </tr>
+
+                <tr>
+                    <td> <b>Password: </b>
+                    <td> <input type=password name=pass required>
+                </tr>
+
+                <tr>
+                    <td> <b>Email: </b>
+                    <td> <input type=text name=email required>
+                </tr>
+
+                <tr>
+                    <td> <b>Mobile Number: </b>
+                    <td> <input type=text name=mobile required>
+                </tr> <br>
+
+
+                <tr>
+                    <td><b>Highest Qualification: </b></td>
+                    <td><select name="hq">
+                        <option value="pg">Post Graduate</option>
+                        <option value="g">Graduate</option>
+                        <option value="ug">Under Graduate</option>
+                    </select></td>
+                </tr>
+
+                
+                
+            </table>
+            <div class="submit">
+                <input type="submit" value="Sign Up">
+            </div>
+        </form>
+
+    </div>
+
+
+</body>
+
+</html>
